@@ -20,6 +20,6 @@ public class TerminalAccount {
         System.out.print("Please, enter your balance: ");
         balance = sc.nextDouble();
 
-        System.out.printf("Hello %s, thanks for creating an account in our bank! Your agency is %s, account %d and your balance %.2f ready to withdraw", clientName,agency,number,balance);
+        System.out.printf("Hello %s, thanks for creating an account in our bank! Your agency is %s, account %d and your balance R$ %.2f ready to withdraw", clientName,agency,number,balance);
     }
 }
